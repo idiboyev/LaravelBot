@@ -1,0 +1,17 @@
+---
+description: Git commit matnlari o'zbek tilida va o'zgarishlardan keyin push
+alwaysApply: true
+---
+
+# Git — o'zbek tilida commit va push
+
+Loyiha ustida ishlaganda:
+
+1. **Commit matni** — har doim **o'zbek tilida**, qisqa va aniq (nima va nega qo'shildi/o'zgartirildi).
+2. **Push** — commit muvaffaqiyatli bo'lgach, foydalanuvchi alohida aytmasa ham **`git push`** ni o'zing bajar.
+3. **Xavfsizlik** — `.env`, tokenlar, parollar va maxfiy kalitlarni commit qilma.
+4. Commitdan oldin `git status` va `git diff` ni tekshir.
+
+Misol commit matnlari:
+- `Telegram webhook va /start buyrug'i qo'shildi`
+- `Fayl yuklash xatosini tuzatildi`
