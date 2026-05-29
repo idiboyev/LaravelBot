@@ -9,7 +9,7 @@ class TelegramWebhookController extends Controller
 {
     public function __invoke(): Response
     {
-        Telegram::commandsHandler(true);
+        Telegram::bot(config('telegram.default', 'savemix'))->commandsHandler(true);
 
         return response('ok', 200);
     }
